@@ -7,7 +7,7 @@ import productRoutes from './routes/products.js'
 const app = express();
 
 
-const CONNECTION_URL="mongodb+srv://Aakash:Aakash@cluster0.rcfcle1.mongodb.net/?retryWrites=true&w=majority"
+const CONNECTION_URL="mongodb+srv://<username>:<password>@cluster0.rcfcle1.mongodb.net/?retryWrites=true&w=majority"
 const PORT=5000;
 
 app.use(bodyParser.json());
